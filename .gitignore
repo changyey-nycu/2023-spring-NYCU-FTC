@@ -1,0 +1,23 @@
+# cmake generate
+build
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+
+# compile file
+*.pb.h
+*.pb.cc
+libeVoting_grpc_proto.a
+
+# execute file
+*.o
+eVoting_client
+eVoting_server
+# key
+key/*
+
+# database
+db
+
+# vscode
+.vscode
